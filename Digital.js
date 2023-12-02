@@ -27,11 +27,11 @@ else{
     scrollToTop.style.display="none";
 
 }
-if(window.scrollY>=blog.offsetTop-450){
+if(window.scrollY>=blog.offsetTop-650){
     blog.classList.add("reach")
 
 }
-if(window.scrollY>=client.offsetTop-450){
+if(window.scrollY>=client.offsetTop-650){
 cards.forEach((card)=> {
     card.classList.add("reach");
 
