@@ -9,9 +9,9 @@ let scrollProgress=document.querySelector(".scroll-progress");
 naveLinks.forEach((naveLink)=> {
 naveLink.addEventListener("click",(element)=> {
 naveLinks.forEach((naveLink)=>{
-    naveLink.classList.remove("active");
+    naveLink.classList.remove("activeted");
 })
-element.currentTarget.classList.add("active");
+element.currentTarget.classList.add("activeted");
 })
 })
 let services=document.querySelector(".services");

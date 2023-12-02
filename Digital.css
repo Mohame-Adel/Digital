@@ -32,9 +32,10 @@
 .navbar .nav-link{
     color: white;
 }
- .navbar .active{
+ .navbar .activeted{
     color:var(--main-color);
 }
+
 .navbar .main-btn{
     background-color: var(--main-color);
 outline: none;
